@@ -6,10 +6,10 @@ var Abilities = require('./Abilities');
 var Main = React.createClass({
   getInitialState: function(){
     return {
-      name: 'Lionel Hsu',
+      name: 'Pepe',
       levels: [1,2,3,4,5,6],
-      text: 'Lionel Hsu salga de tu proyecto, ganas 1 bug',
-      abilities: [2,1,0,1]
+      text: 'Pepe se tira pepes. No seas como Pepe.',
+      abilities: [1,4,1,0]
     }
   },
   render: function(){
